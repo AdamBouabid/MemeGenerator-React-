@@ -1,0 +1,102 @@
+.content-container{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="text"]{
+    text-transform: capitalize;
+    font-family: 'Karla', sans-serif;
+    font-size: large;
+    width: 45%;
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    height: 20px;
+    padding: 20px;
+}
+
+.generate-button {
+    margin-top: 20px;
+    padding: 20px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    border: none;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: x-large;
+    line-height: 19px;
+
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.1em;
+
+    color: #FFFFFF;
+    transition: all .5s ease-in-out;
+}
+
+.generate-button:hover{
+    transform: scale(1.03);
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.meme--frame{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meme--img{
+    width: 800px;
+    height: 550px;
+    border: 2px dotted black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease-in-out;
+}
+
+.meme--img:hover{
+    transform: scale(1.03);
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: x-large;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+.download--btn {
+    margin-top: 20px;
+    padding: 20px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    border: none;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: x-large;
+    line-height: 19px;
+
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.1em;
+
+    color: #FFFFFF;
+    transition: all .5s ease-in-out;
+    text-decoration: none;
+}
+
+.download--btn:hover{
+    transform: scale(1.03);
+    opacity: 0.9;
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.header-container{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+
+
+.header-title{
+    display: flex;
+    align-items: center;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.7482px;
+    line-height: 24px;
+    letter-spacing: -0.1em;
+
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.troll-face{
+    height: 45px;
+    width: 50px;
+    margin-right: 10px;
+}
